@@ -5,6 +5,7 @@ docker pull prodromou87/ucsd_cse240a
 
 Mount 本机和docker互通
 docker run --rm -it -v /path/to/project/directory:/path/to/mount/point prodromou87/ucsd_cse240a
+
 EX
 docker run --rm -it -v /Users/xuzhaokai/Desktop/CSE240A-master:/path/to/mount/point prodromou87/ucsd_cse240a
 
